@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&family=Playpen+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.row-1 {
+    background-image: url("../images/Add-a-heading.png");
+    min-height: 400px;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-1 {
+    top: 200px;
+    position: relative;
+    color: white;
+    left: 200px;
+    font-size: 54px;
+}
+
+.bt-bt {
+
+    font-family: 'Playpen Sans', cursive;
+    text-align: center;
+    font-size: 33px;
+    padding: 33px;
+}
+
+.pt-1 {
+    font-size: 22px;
+}
+
+.pt h1 {
+    font-size: 33px;
+}
+
+.pt p {
+    font-size: 22px;
+}
+
+.mycol mycol-12 {
+    margin: 12px;
+    padding: 12px;
+}
+
+.serimg {
+    width:100%;
+    height: 300px;
+    padding:13px;
+    margin:12px;
+}
+
+.img-fluidser {
+    max-width: 100%;
+    height: 200px;
+    width: auto;
+}
+.img-fluid {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:780px) {
+    .services-tag h1{
+        font-size: 22px;
+    }
+}
+

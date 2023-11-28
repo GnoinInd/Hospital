@@ -1,0 +1,302 @@
+.row-1 {
+    background-image: url("../images/Add-a-heading.png");
+    min-height: 400px;
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-1 {
+    top: 200px;
+    position: relative;
+    color: white;
+    left: 200px;
+    font-size: 54px;
+}
+
+.paragraph-1 {
+
+    width: 85%;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 7px 8px 0px #4175FC;
+    border-radius: 19px;
+    font-size: 20px;
+    color: black;
+    padding: 23px;
+}
+
+.paragraph-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+}
+
+.contact-form {}
+
+.contact-form-1 {
+    width: 60%;
+    padding: 20px;
+    margin: 12px;
+}
+
+.contact-submit {
+    background-color: #4175FC;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 93px;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.contact-submit:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.contact-table {
+    color: #4175FC;
+    padding: 2px;
+    align-items: center;
+
+}
+
+.contact-table td {
+    padding: 12px;
+
+}
+
+.contact-div {
+    text-align: center;
+    padding: 22px;
+}
+
+.contact-div h1 {
+    font-size: 43px;
+}
+
+.contact-div h3 {
+    font-size: 30px;
+}
+
+.contact-div h5 {
+    font-size: 17px;
+}
+
+.contact-at {
+    font-size: 20px;
+
+}
+
+.contact-tab {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-row {
+    border: 2px solid none;
+    background-color: #4175FC;
+    height: 340px;
+    width: 630px;
+}
+
+.contactdetails {
+    padding: 20px;
+
+}
+
+.contactdetails h5 {
+    color: white;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.contactcardcont button {
+    padding: 18px;
+    color: white;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 700;
+
+}
+
+.contactcardcont {
+    text-align: center;
+}
+
+.contactcardcont button:hover {
+    background-color: white;
+    border: none;
+    color: #4175FC;
+    font-weight: 700;
+}
+
+.conatct-call h3 {
+    font-size: 23px;
+}
+
+.contactphysical img {
+    width: 600px;
+    height: 450px;
+    border: 1px solid blue;
+}
+
+.contactphysical h3 {
+    font-size: 28px;
+}
+
+.afterline {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    padding: 12px;
+    max-width: 600px;
+}
+
+.afterline:after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 5px;
+    background: #191970;
+    right: 0;
+    top: 50%;
+    position: absolute;
+
+
+}
+
+.contact-git {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    padding: 10px;
+    max-width: 400px;
+
+}
+
+.contact-git:after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 3px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    background: #4175FC;
+}
+
+.contact-line {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    padding: 10px;
+    max-width: 400px;
+}
+
+.contact-line:after {
+    content: "";
+    display: block;
+    width: 560px;
+    height: 2px;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    background: white;
+}
+@media screen and (max-width: 768px) {
+    .contactphysical img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid blue;
+    }
+    .afterline::after{
+        display: none;
+    }
+    .contactphysical{
+        width: 100%;
+    }
+    .contactphysical iframe{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       
+    
+    }
+    .contact-row {
+        border: 2px solid none;
+        background-color: #4175FC;
+        height: 100%;
+        width: 100%;
+}
+.contact-line::after{
+    display: none;
+}
+.test-1{
+    float:left;
+    right:100%;
+    font-size: 34px;
+}
+.contact-git::after{
+    display: none;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1345px) {
+    .contactphysical img {
+        width: 100%;
+        height: 100%;
+        border: 1px solid blue;
+        
+    }
+    .afterline::after{
+        display: none;
+    }
+    .contactphysical{
+        width: 100%;
+        padding:23px;
+    }
+    .contactphysical iframe{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding:23px;
+       
+    
+    }
+    .contact-row {
+        border: 2px solid none;
+        background-color: #4175FC;
+        height: 100%;
+        width: 100%;
+}
+.contact-line::after{
+    display: none;
+}
+.test-1{
+    float:left;
+    right:100%;
+    font-size: 34px;
+}
+.contact-git::after{
+    display: none;
+}
+}
+

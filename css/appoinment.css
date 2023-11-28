@@ -1,0 +1,171 @@
+body{
+    font-family: Verdana, Arial, calibri;
+    font-size: 16px;
+    color: #666666;
+  }
+  #abas{
+    margin:0;
+    padding:0;
+  }
+  #abas li{
+    display:inline-block;
+    border: 1px solid #CCCCCC;
+    border-bottom:none;
+    background-color:#EEEEEE;
+  }
+  #abas li a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration:none;
+    color:#000000;
+  }
+  #abas li.selecionada{
+    background-color:#FFFFFF;
+    position:relative;
+    top:1px;
+    font-weight:bold;
+  }
+  #abas li.selecionada a{
+    padding-top: 11px
+  }
+  .conteudo{
+    display:block;
+    padding:10px;
+    border: 1px solid #CCCCCC;
+    display:none;
+  }
+  .conteudo.visivel{
+    display:block;
+  }
+  .appointment-tag{
+    color:blue;
+    padding:23px;
+    font-weight: bold;
+  }
+  .appointment-select{
+    border:1px solid rgb(116, 113, 113);
+   padding:11px;
+   width:290px;
+   margin:8px;
+   font-weight: bold;
+   color:rgb(116, 113, 113);
+  }
+  .appointment-select option{
+    font-weight: bold;
+  }
+  .appointment-time{
+    padding:23px;
+  }
+  .app-date{
+    display: flex;
+  }
+  .appointment-button-2{
+    
+    float:right;
+
+  }
+  .appointment-next{
+    background-color: blue;
+    color:white;
+    padding:13px 34px;
+    border:none;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+  }
+  .appointment-date{
+    padding:10px 30px;
+  }
+  .appointment-span{
+    padding:12px;
+  }
+  .appointment-time-1{
+    padding:10px 30px;
+  }
+  .appointment-span{
+    padding:13px;
+  }
+  .appointment-flex{
+    display: flex;
+    padding:12px;
+    padding-left:12px;
+    margin:13px;
+    
+  }
+  .appointment-flex input{
+padding:15px;
+  }
+  .appointment-flex label{
+    padding:15px;
+    font-size: 17px;
+  }
+  .appoinment-notes{
+    padding:23px;
+  }
+  .appoinment-notes input{
+    padding:15px;
+    width:60%;
+  }
+  .appoinment-notes label{
+    padding:15px;
+    font-size: 17px;
+  }
+  .btn-11{
+      float: right;
+     
+     
+  }
+  
+  .btn-11 a {
+      padding: 10px;
+      background-color: #4175FC;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 9px;
+      display: block;
+      width:200px;
+  }
+  .btn-11 a:hover {
+    color: black;
+    background-color: white;
+}
+.btn-1 {
+  float: right;
+  width: 50%;
+  display: block;
+}
+.btn-1 a{
+  display: block;
+  padding:auto;
+  align-items: center;
+  text-align: center;
+  width:100%;
+  height:70%;
+}
+.appointment-text{
+  width:100%;
+  height:100%;
+
+}
+.appointment-text textarea{
+  width:30%;
+  height:100px;
+  padding:12px;
+  margin:12px;
+  border:2px solid black;
+}
+
+@media screen and (max-width:780px) {
+  .appointment-select {
+    border: 1px solid rgb(116, 113, 113);
+    padding: 11px;
+    width: 100%;
+    margin: 8px;
+    font-weight: bold;
+    color: rgb(116, 113, 113);
+}
+}
+

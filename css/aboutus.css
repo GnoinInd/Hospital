@@ -1,0 +1,90 @@
+.row-1{
+    background-image: url("../images/Add-a-heading.png");
+    min-height: 400px; 
+    width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.test-1{
+    top:200px;
+    position: relative;
+    color:white;
+    left:200px;
+    font-size: 54px;
+}
+.row-2{
+    height:10%;
+    width:10%;
+}
+
+.imgapur img{
+    border-radius: 500px 0px 500px 500px;
+}
+.imgapur{
+    width: 50%;
+   
+}
+
+.mt-5{
+    margin-top: 3rem;
+}
+
+.img-fluid{
+    max-width: 100%;
+    width: auto;
+}
+.fst-nm{
+font-size: 43px;
+}
+.snd-nm{
+    color:#4175FC;
+    font-size: 23px;
+}
+.thrd-nm{
+font-size: 18px;
+}
+.test-2{
+right:80px;
+
+}
+.nm{
+    font-size: 43px;
+    color: black;
+    padding:23px;
+}
+.education{
+    color:#4175FC;
+}
+.achievements{
+    color:#4175FC;
+}
+.experience{
+    color:#4175FC;
+}
+.speciality{
+    color:#4175FC;
+}
+.registration{
+    color:#4175FC;
+}
+.certification{
+    color:#4175FC;
+}
+.app-t1{
+    color:#4175FC
+}
+.link-76{
+    margin:12px;
+    padding:12px;
+    color:#4175FC
+}
+.link-23{
+    color:#4175FC;
+}
+body{
+    overflow-x: hidden;
+}

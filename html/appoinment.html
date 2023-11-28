@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/appoinment.css">
+    <link rel="stylesheet" href="../css/style.css" </head>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"
+        integrity="sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
+<body>
+
+    <section>
+        <div class="mycontainer ">
+            <div class="myrow navcontainer ">
+                <div class="mycol mycol-4 ">
+                    <div class="img-1">
+                        <img src="https://drnitinkumar.in/wp-content/uploads/2022/10/Dr._Nitin_Kumar__logo-300x74.png"
+                            class="img-fluid">
+                    </div>
+                </div>
+
+
+                <div class="mycol mycol-4">
+
+                    <div class="myrow contsctbox ">
+
+                        <div class="mycol">
+                            <div class="image-phn">
+                                <img src="https://drnitinkumar.in/wp-content/uploads/2022/10/call-icon-300x300.png"
+                                    class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="mycol">
+                            <div class="phn-num">
+                                <a href="tel:08603542235">
+                                    <h4> 08603542235</h4>
+                                </a>
+                                <a href="tel:08603542235">
+                                    <h4> ,08603542235</h4>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="mycol mycol-4">
+                    <div class="btn-1">
+                        <a href="../html/appoinment.html">Make An Appointment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="navbar">
+            <div class="fst-nav active">
+                <ion-icon name="close-outline" id="close_btn" class="mobile-nav-icon"></ion-icon>
+                <ul class="ul-1 ">
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="../html/aboutus.html">AboutUs</a></li>
+                    <li><a href="../html/services.html">Services</a></li>
+                    <li><a href="../html/gallery.html">Gallery</a></li>
+                    <li><a href="../html/blog.html">Blog</a></li>
+                    <li><a href="../html/testimonial.html">Testimonial</a></li>
+                    <li><a href="../html/contact.html">ContactUs</a></li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+
+
+        </div>
+        <div class="mobile-navbar-btn">
+            <ion-icon name="menu-outline" id="menu_btn" class="mobile-nav-icon"></ion-icon>
+            
+
+        </div>
+    </section>
+
+
+    <div class="mycontainer">
+        <div class="myrow">
+            <div class="col-12">
+
+                <main>
+
+                    <ul id="abas" class="teste">
+                        <li class="selecionada link active" target="conteudo_1 " value="1"><a id="aba_1"
+                                href="#aba_1">1.Service</a></li>
+                        <li class="link" target = 'conteudo_2' value="2"><a id="aba_2" href="#aba_2">2.Time</a></li>
+                        <li class="link" target = 'conteudo_3' value="3"><a id="aba_3" href="#aba_3">3.Details</a></li>
+                        <li class="link" target = 'conteudo_5' value="4"><a id="aba_5" href="#aba_5">5.Done</a></li>
+                    </ul>
+
+                    <div id="conteudos">
+
+                        <div id="conteudo_1" class="conteudo visivel mycontainer ">
+                            <p><b>Please select service:</b></p>
+                            <div class="myrow">
+                                <div class="mycol mycol-4">
+
+                                    <label class="appointment-tag">Service</label>
+                                    <div>
+                                        <select class="appointment-select">
+                                            <option value="0">Select Service</option>
+                                            <option value="1">Dr. Nitin Kumar Appoinment</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="mycol mycol-4">
+
+                                    <label class="appointment-tag">Employee</label>
+                                    <div>
+                                        <select class="appointment-select">
+                                            <option value="0">Any</option>
+                                            <option value="1">Nitin Kumar($0.00)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="mycol mycol-4">
+                                    <div class="form-group-1">
+                                        <label class="appointment-tag">Category</label>
+                                        <div>
+                                            <select class="appointment-select">
+                                                <option value="0">Select Category</option>
+                                                <option value="1">Consultancy</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="myrow">
+                                <div class="mycol col-3">
+                                    <div class="form-group-2">
+                                        <div class="appointment-time-1">
+                                            <span class="appointment-span"></span>
+                                            <div>
+                                                <form>
+                                                    <label for="doc-available">I'm available on or
+                                                        after:</label><br><br>
+                                                    <input type="date" id="doc-available"" name=" available">
+
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="mycol col-3">
+                                    <div class="appointment-time app-date">
+                                        <div>
+                                            <label>Mon</label>
+                                            <input type="checkbox" checked="checked">
+                                        </div>
+                                        <div>
+
+                                            <label>Tue</label>
+                                            <input type="checkbox" checked="checked">
+                                        </div>
+
+
+                                        <div>
+
+                                            <label>Wed</label>
+                                            <input type="checkbox" checked="checked">
+
+                                        </div>
+                                        <div>
+
+                                            <label>Thu</label>
+                                            <input type="checkbox" checked="checked">
+
+                                        </div>
+                                        <div>
+
+                                            <label>Fri</label>
+                                            <input type="checkbox" checked="checked">
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mycol col-3">
+                                    <div class="appointment-start-finish">
+                                        <div class="appointment-time">
+                                            <span>Start from</span>
+                                            <div>
+                                                <select class="appointment-date">
+                                                    <option value="08:00" selected="selected">8:00 am</option>
+                                                    <option value="09:00">9:00 am</option>
+                                                    <option value="10:00">10:00 am</option>
+                                                    <option value="11:00">11:00 am</option>
+                                                    <option value="12:00">12:00 pm</option>
+                                                    <option value="13:00">1:00 pm</option>
+                                                    <option value="14:00">2:00 pm</option>
+                                                    <option value="15:00">3:00 pm</option>
+                                                    <option value="16:00">4:00 pm</option>
+                                                    <option value="17:00">5:00 pm</option>
+                                                    <option value="18:00">6:00 pm</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mycol col-3">
+                                    <div class="appointment-time">
+                                        <span>Finish by</span>
+                                        <div>
+                                            <select class="appointment-date">
+                                                <option value="08:00" selected="selected">8:00 am</option>
+                                                <option value="09:00">9:00 am</option>
+                                                <option value="10:00">10:00 am</option>
+                                                <option value="11:00">11:00 am</option>
+                                                <option value="12:00">12:00 pm</option>
+                                                <option value="13:00">1:00 pm</option>
+                                                <option value="14:00">2:00 pm</option>
+                                                <option value="15:00">3:00 pm</option>
+                                                <option value="16:00">4:00 pm</option>
+                                                <option value="17:00">5:00 pm</option>
+                                                <option value="18:00" selected="selected">6:00 pm</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+                        <div id="conteudo_2" class="conteudo">
+                            <p>Below you can find a list of available time slots for Dr. Nitin Kumar Appointment by
+                                Nitin Kumar.</p>
+                            <p>Click on a time slot to proceed with booking.</p>
+                            <form class="appointment-text">
+                                <textarea>
+                                   
+                                </textarea>
+                                <div class="appointment-time">
+                                    <span>Start from</span>
+                                    <div>
+                                        <select class="appointment-date">
+                                            <option value="08:00" selected="selected">8:00 am</option>
+                                            <option value="09:00">9:00 am</option>
+                                            <option value="10:00">10:00 am</option>
+                                            <option value="11:00">11:00 am</option>
+                                            <option value="12:00">12:00 pm</option>
+                                            <option value="13:00">1:00 pm</option>
+                                            <option value="14:00">2:00 pm</option>
+                                            <option value="15:00">3:00 pm</option>
+                                            <option value="16:00">4:00 pm</option>
+                                            <option value="17:00">5:00 pm</option>
+                                            <option value="18:00">6:00 pm</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        <div id="conteudo_3" class="conteudo">
+                            <p>You selected a booking for Dr. Nitin Kumar Appointment by Nitin Kumar at 11:30 am on
+                                November 14, 2023. The price for the service is $0.00.</p>
+                            <p>Please provide your details in the form below to proceed with bookingr.</p>
+                            <div class="appointment-form">
+                                <div class="appointment-flex">
+                                    <label>Full name</label>
+                                    <input type="text" placeholder="Enter Your Name" required>
+                                    <label>Phone</label>
+                                    <input id="phone" type="tel" name="phone" />
+                                    <label>Email</label>
+                                    <input type="text" placeholder="Enter Your Email" required>
+                                </div>
+                                <div class="appoinment-notes">
+                                    <label>Notes</label>
+                                    <input type="text" placeholder="Write Your Notes" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="conteudo_5" class="conteudo">
+                            <p>Thank you! Your booking is complete. An email with details of your booking has been sent
+                                to you.</p>
+                        </div>
+
+                    </div>
+                    <div class="appointment-button">
+                        <div class="appointment-button-1">
+                            <button class="appointment-next" target="1" onclick="backBtn()"><span>Back</span></button>
+                        </div>
+                        <div class="appointment-button-2">
+                            <button class="appointment-next" onclick="nextBtn()"><span>Next</span></button>
+                        </div>
+                    </div>
+                    <!-- partial -->
+
+                    <!-- END EDMO HTML (Happy Coding!)-->
+                </main>
+            </div>
+
+        </div>
+    </div>
+
+
+    <section class="mycontainer">
+        <footer>
+            <div class="sec-4">
+                <div class="item-7">
+                    <div class="img-7">
+                        <img src="https://drnitinkumar.in/wp-content/uploads/2022/10/Dr._Nitin_Kumar__logo-300x74.png">
+                    </div>
+                    <div class="txt-7">
+                        <h3>Dr. Nitin Kumar is one of the best orthopedic surgeons in Bhagalpur. He comes with 10+ years
+                            experience in Orthopedic Surgery. He is also a senior resident teaching faculty at Jawahar
+                            Lal Nehru Medical College, Bhagalpur. </h3>
+                    </div>
+
+                </div>
+                <div class="link-1">
+                    <div class="link-2">
+                        <h3>Quick Links</h3>
+                    </div>
+                    <div class="link-3">
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#aboutus">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#testimonial">Testimonial</a></li>
+                            <li><a href="#contactus">ContactUs</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="link-4">
+                    <div class="link-5">
+                        <h3>OPD Timing</h3>
+                    </div>
+
+
+                    <div class="link-6">
+                        <table>
+                            <tr>
+                                <td>Sun <br>
+                                    Mon-Sat</td>
+                                <td>10 am-2 am<br>
+                                    8am -9am
+                                    1pm-6pm</th>
+                                </td>
+                        </table>
+                    </div>
+                    <div class="link-7">
+                        <div class="facebook">
+                            <img src="">
+                        </div>
+                        <div class="youtube">
+                            <img src="">
+                        </div>
+                        <div class="instagram">
+                            <img src="">
+                        </div>
+                        <div class="linkdin">
+                            <img src="">
+                        </div>
+                    </div>
+                </div>
+                <div class="link-8">
+                    <div class="link-9">
+                        <h1>Quick Contact</h1>
+                    </div>
+                    <div class="link-10">
+                        info@drnitinkumar.in
+                    </div>
+                    <div class="link-11">
+                        <a href="tel:08603542235">
+                            <h4> 08603542235</h4>
+                        </a>
+                        <a href="tel:08603542235">
+                            <h4> ,08603542235</h4>
+                        </a>
+                    </div>
+                    <div class="link-12">
+                        Raja SN Rd, Masakchak, Bhagalpur, Bihar 812001, India
+                    </div>
+                </div>
+            </div>
+            <div class="link-13">
+                <div class="link-14">
+                    Copyright © 2023 Dr. Nitin Kumar | Developed By
+                    <a class="gnion" href="#">Gnion.com</a>
+                </div>
+                <div class="link-15">
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </footer>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        var abas = document.getElementById("abas");
+        var conteudos = document.getElementById("conteudos");
+        function limparSelecao() {
+            abas.getElementsByClassName("selecionada")[0].classList.remove("selecionada");
+            conteudos.getElementsByClassName("visivel")[0].classList.remove("visivel");
+        }
+        abas.addEventListener("click", function (event) {
+            var abaClicada = event.target.id;
+            var itemSelecionado = abaClicada.substring(abaClicada.lastIndexOf("_"));
+            limparSelecao();
+            event.target.parentElement.classList.add("selecionada");
+            conteudos.querySelector("#conteudo" + itemSelecionado).classList.add("visivel");
+        });
+
+        const phoneInputField = document.querySelector("#phone");
+        const phoneInput = window.intlTelInput(phoneInputField, {
+            utilsScript:
+                "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+        });
+
+
+        let link = document.querySelectorAll(".link");
+        let currentValue = 0;
+
+        function backBtn() {
+            link.forEach(item => item.classList.remove('selecionada'))
+            if (currentValue > 0) {
+                currentValue--
+            }
+            link[currentValue].classList.add('selecionada')
+            const targetValue = link[currentValue].getAttribute('target'); // Corrected typo in 'target'
+
+            const targetElement = document.getElementById(targetValue);
+              
+            if (targetElement) {
+                document.querySelectorAll('.conteudo ').forEach(item => item.classList.remove('visivel'))
+                targetElement.classList.add('visivel');
+            }
+        }
+        function nextBtn() {
+            link.forEach(item => item.classList.remove('selecionada'))
+            if (currentValue < link.length - 1) {
+                currentValue++
+            }
+            link[currentValue].classList.add('selecionada')
+            const targetValue = link[currentValue].getAttribute('target'); // Corrected typo in 'target'
+
+            const targetElement = document.getElementById(targetValue);
+              
+            if (targetElement) {
+                document.querySelectorAll('.conteudo ').forEach(item => item.classList.remove('visivel'))
+                targetElement.classList.add('visivel');
+            }
+        }
+        const mobile_nav = document.querySelector(".mobile-navbar-btn");
+        const nav_header = document.querySelector(".fst-nav");
+        const mobile_nav_hide = document.querySelector(".mobile-nav-icon");
+        const closeBtn = document.getElementById("close_btn");
+ 
+
+        mobile_nav.addEventListener("click", () => {
+            nav_header.style.transform = 'translateX(0%)';
+        });
+
+        closeBtn.addEventListener("click", () => {
+            nav_header.style.transform = 'translateX(-100%)';
+        });
+    </script>
+
+</body>
+
+</html>
