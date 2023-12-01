@@ -1,0 +1,14 @@
+.container {
+    margin-top: 40px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+  .navbar{
+    background-color: aliceblue;
+  }
+
+  input:active {
+    outline-color: rgb(95, 141, 39) !important;
+  }

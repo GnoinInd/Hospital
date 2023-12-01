@@ -1,0 +1,45 @@
+input[type=text],textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    line-height: 1.4;
+    border-color: rgba(95, 141, 39, 0.9);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+    letter-spacing: 0px;
+    background-color: rgba(122, 233, 84, 11.9);
+    
+  }
+  
+  input[type=submit]:hover {
+    border-color: rgba(95, 141, 39, 1) !important;
+    background-color: rgba(95, 141, 39, 1) !important;
+  }
+
+  textarea{
+    resize: none;
+  }
+  

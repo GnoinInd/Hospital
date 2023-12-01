@@ -1,0 +1,26 @@
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 1s;
+}
+.slideanim::after {
+    
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    } 
+}
+
+
